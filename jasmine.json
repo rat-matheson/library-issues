@@ -1,0 +1,8 @@
+{
+    "spec_files": [
+      "projects/class-transformer-issues/src/tst/discriminator.spec.ts"
+    ],
+    "helpers":[
+        "./tests.compiler.js"
+    ]
+}

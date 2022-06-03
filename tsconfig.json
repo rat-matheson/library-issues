@@ -3,19 +3,31 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "class-transformer-issues": [
+        "dist/class-transformer-issues/class-transformer-issues",
+        "dist/class-transformer-issues"
+      ]
+    },
     "outDir": "./dist/out-tsc",
+
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "downlevelIteration": false,
     "target": "es2017",
-    "module": "es2020",
+    "module": "commonjs",
     "lib": [
       "es2018",
       "dom"
